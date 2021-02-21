@@ -1,0 +1,7 @@
+REACT_APP_API="http://api-icb.tuoitresoft.com/api/v2"
+
+REACT_APP_USER_URL="https://user.icarebase.com"
+REACT_APP_ENV="development"
+REACT_APP_SITE_KEY="6Le7NPQUAAAAAGFK1rPeJ_u83Xqxw2Lv_D2U_spH"
+REACT_APP_SECRECT_KEY="6Le7NPQUAAAAACUvT0lSy2Vr8lCRixFQzhKsbGRE"
+SKIP_PREFLIGHT_CHECK=true

@@ -1,0 +1,60 @@
+@import "assets/css/variables";
+.transfer-modal-container {
+  .title {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: $header-menu-color;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .content {
+    font-size: 16px;
+    canvas {
+      width: 200px!important;
+    }
+    .address-input {
+      width: 100%!important;
+      margin: 0 auto;
+      padding: 0px!important;
+      input.ant-input {
+        outline: $header-menu-color !important;
+        color: $header-menu-color;
+      }
+    }
+    .ant-input-affix-wrapper:hover,
+    .ant-input-affix-wrapper-focused,
+    .ant-input-affix-wrapper:focus {
+      border-color: $header-menu-color !important;
+    }
+  }
+  .unit {
+    position: relative;
+  }
+  .wrapper-input {
+    position: relative;
+    cursor: pointer;
+  }
+  .success-content {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background: red;
+    width: 100%;
+    padding-top: 5px;
+    height: 33px;
+    opacity: 0.7;
+  }
+}
+@media only screen and (max-width: 640px) {
+  canvas {
+    width: 100% !important;
+  }
+  .address-input {
+    max-width: 100%;
+  }
+}

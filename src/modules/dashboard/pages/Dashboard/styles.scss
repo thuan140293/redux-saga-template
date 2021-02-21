@@ -1,0 +1,54 @@
+.dashboard-container {
+  .dashboard-wallets {
+    flex-wrap: nowrap;
+    overflow-y: auto;
+  }
+  .wallet {
+    min-width: 330px;
+    margin-bottom: 10px;
+    .bg-polygon {
+      margin-top: 40px;
+      position: relative;
+      background-color: #4c0a0e;
+    }
+  }
+
+  .ant-card-bordered {
+    border: none;
+  }
+  .ant-card-body {
+    padding: 0px !important;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+.history-report {
+  display: flex;
+  align-items: stretch;
+}
+.header-modal-custom {
+  .ant-modal-header {
+    background-color: #650100;
+    .ant-modal-title {
+      color: #fff;
+    }
+  }
+  .ant-modal-close {
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .dashboard-container {
+    .dashboard-wallets {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .mobile-margin {
+    margin-bottom: 50px !important;
+  }
+}

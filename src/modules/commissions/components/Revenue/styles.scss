@@ -1,0 +1,38 @@
+.revenue-container {
+  height: 100%;
+  .ant-card-body {
+    height: 100%;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .action {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+.form-revenue-container {
+  .form-item-hide-custom {
+    color: white;
+  }
+  .control {
+    display: flex;
+    .control-left {
+      flex: 1;
+      .ant-input-number {
+        width: 100%;
+      }
+    }
+    .unit {
+      width: 50px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

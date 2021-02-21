@@ -1,0 +1,52 @@
+@import "assets/css/variables";
+.withdraw-modal-container {
+  padding: 0 30px;
+  label {
+    font-size: 16px;
+  }
+  .title {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: $header-menu-color;
+  }
+  .control {
+    display: flex;
+    .col-left {
+      flex: 1;
+    }
+    .col-right {
+      width: 10%;
+    }
+  }
+  .t-right {
+    button {
+      width: 100%;
+      text-transform: uppercase;
+    }
+  }
+
+  button,
+  .ant-btn:hover,
+  .ant-btn:focus {
+    border-color: $header-menu-color !important;
+    color: $header-menu-color !important;
+  }
+}
+.button-action-amount {
+  margin-left: 17px;
+  button {
+    width: 56px;
+    height: 31px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .button-action-amount {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}

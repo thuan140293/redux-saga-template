@@ -1,0 +1,214 @@
+.post-container {
+  background-color: #f0f2f5;
+
+  .post-header {
+    background-image: url("../../../assets/images/post-banner-header.png");
+    height: 150px;
+    background-repeat: round;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .post-header-wrapper {
+      width: 1170px;
+      display: flex;
+      font-family: 'Mulish', sans-serif;
+
+      .logo {
+        background-image: url("../../../assets/images/icarebase-logo-scan-medical.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 80px;
+        height: 80px;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+      .menu {
+        margin-left: auto;
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+        }
+
+        li {
+          float: left;
+          margin: 30px;
+        }
+
+        li a {
+          padding: 8px;
+          color: white;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .post-body {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+
+    .post-body-wrapper {
+      width: 1170px;
+
+      .post-category-wrapper {
+        background-color: #FFFFFF;
+        padding: 10px;
+
+        .category-title {
+          font-size: 14px;
+          font-weight: 600;
+          margin-top: 20px;
+        }
+
+        .post-category-item-wrapper {
+          display: flex;
+          cursor: pointer;
+          margin-bottom: 20px;
+
+          .category-active {
+            margin: auto 15px auto 0;
+          }
+
+          .category-name {
+
+          }
+
+          .category-selected {
+            font-weight: 600;
+          }
+        }
+      }
+
+      .post-wrapper {
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 10px;
+        margin: 0 10px 30px;
+
+        .post-banner {
+          position: relative;
+          padding: 5px;
+          box-shadow: 1px 5px 10px #7D9194;
+          cursor: pointer;
+
+          .post-category {
+            color: white;
+            width: 30%;
+            position: absolute;
+            padding: 5px;
+          }
+
+          .post-banner-img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .post-content-wrapper {
+          margin-top: 20px;
+
+          .post-title {
+            font-size: 27px;
+            font-weight: 400;
+            margin: 10px 0 10px 0;
+            color: #263843;
+          }
+
+          .post-time {
+            margin: 10px 0 10px 0;
+            color: #C3CCD3;
+            font-size: 12px;
+          }
+
+          .content-preview {
+            margin: 10px 0 10px 0;
+            color: #768791;
+            font-size: 14px;
+          }
+
+          .post-like {
+            margin-left: 90%;
+
+            .like {
+              color: red;
+            }
+          }
+        }
+      }
+
+      .post-favorite-wrapper {
+        background-color: #FFFFFF;
+        padding: 10px;
+
+        .post-favorite-header {
+          font-size: 14px;
+          font-weight: 600;
+          margin-top: 20px;
+        }
+
+        .post-favorite-item {
+          display: flex;
+          padding: 10px;
+          cursor: pointer;
+
+          .post-favorite-img {
+            margin-right: 10px;
+
+            img {
+              width: 56px;
+              height: 56px;
+              border-radius: 50%;
+            }
+          }
+
+          .post-favorite-content {
+            .post-favorite-title {
+              color: #768791;
+              font-size: 14px;
+            }
+
+            .post-favorite-time {
+              color: #C2CBD2;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #2DA7E2;
+}
+
+.dot-selected {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #2DA7E2;
+}
+
+.m-10 {
+  margin: 10px 0 !important;
+}
+
+
+
+
+
+

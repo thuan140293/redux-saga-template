@@ -1,0 +1,65 @@
+.transactions {
+  height: 100%;
+  .report-content {
+    height: 100%;
+    .report-card {
+      height: 100%;
+    }
+  }
+}
+.report-content {
+  height: 100%;
+  .report-card {
+    background-color: rgba($color: #200000, $alpha: 0.18);
+    &.ant-card-bordered {
+      border-color: transparent;
+      overflow: hidden;
+    }
+    .ant-card-head {
+      color: #ffffff;
+      border-color: rgba($color: #ff0000, $alpha: 0.3);
+    }
+  }
+  .report-table {
+    background: none;
+    .ant-table {
+      background: none;
+      .ant-table-tbody {
+        .ant-empty-description {
+          color: #fff;
+        }
+        & > tr.ant-table-placeholder {
+          &:hover > td {
+            background: none;
+          }
+        }
+        & > tr.ant-table-row {
+          &:nth-child(odd) {
+            background-color: rgba($color: #200000, $alpha: 0.18);
+          }
+          &:hover {
+            & > td {
+              background-color: rgba($color: #f9354c, $alpha: 0.8);
+              cursor: pointer;
+            }
+          }
+        }
+    
+      }
+      .ant-table-thead {
+        & > tr {
+          & > th {
+              border-color: rgba($color: #ff0000, $alpha: 0.3);
+              background: none;
+              color: #ffffff;
+            }
+         }
+       }
+      .ant-table-cell {
+        color: #ffffff;
+        border: none;
+      }
+    }
+  }
+  
+  }

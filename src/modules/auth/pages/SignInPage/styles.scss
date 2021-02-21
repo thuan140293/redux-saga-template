@@ -1,0 +1,117 @@
+.sign-in-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("../../../../assets/images/login/background_new.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #590d12;
+  flex-direction: column;
+  align-items: center;
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    .card-login-custom {
+      border-radius: 8px;
+      box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.03);
+      .ant-card-head {
+        text-align: center;
+        font-size: 20px;
+        border-bottom: none;
+      }
+    }
+    .action {
+      margin-top: 20px;
+    }
+    .link-custom {
+      cursor: pointer;
+      color: #40a9ff;
+    }
+    .ant-card {
+      border-radius: 0px !important;
+    }
+    .input-field-label {
+      margin-bottom: 5px;
+      display: block;
+      color: #7b7b7b;
+      font-size: 16px;
+      font-weight: lighter;
+      span {
+        color: red;
+      }
+    }
+    .ant-form-item {
+      margin-bottom: 10px;
+    }
+    .action {
+      width: 100%;
+    }
+    .ant-card-head-title {
+      color: #f9354c;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  .support-hotline {
+    color: #ffffff;
+    a {
+      color: #ffffff;
+    }
+    p {
+      text-align: center;
+      margin: 10px 0;
+    }
+  }
+  .primary-button {
+    background-color: #ffffff;
+    border-color: #f9354c;
+    border-width: 1;
+    width: 100%;
+    color: #f9354c;
+    font-size: 16px;
+    font-weight: bold;
+    &:hover {
+      background-color: #f9354c;
+    }
+    &:focus {
+      background-color: #f9354c;
+    }
+  }
+  .forgot-button {
+    color: #707070;
+    font-size: 20px;
+    padding: 0px;
+    float: left;
+    margin-left: -1px;
+    &:hover {
+      color: #f9354c;
+    }
+    &:focus {
+      color: #f9354c;
+    }
+  }
+  .sign-up-link {
+    color: #707070;
+    font-size: 20px;
+    padding: 0px;
+    margin-right: -1px;
+    float: right;
+    &:hover {
+      color: #f9354c;
+    }
+    &:focus {
+      color: #f9354c;
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .sign-in-container {
+    .login-container {
+      max-width: 425px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+$line-color: #fff;
+$line-active-color: rgba(#f9354c, 1);
+
+.tree-container {
+  .nodeBase, .leafNodeBase {
+    stroke: none;
+  }
+  .linkBase {
+    stroke: $line-active-color;
+  }
+}
+
+.foreign-object-wrapper {
+  .hover {
+    display: none;
+  }
+  &:hover {
+    .hover {
+      display: block;
+    }
+  }
+}

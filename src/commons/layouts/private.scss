@@ -1,0 +1,13 @@
+@import "assets/css/variables";
+
+.private-layout-container {
+  min-height: calc(100vh - 70px);
+  .content-layout {
+    padding: 20px;
+    background-image: url("../../assets/images/login/background_new.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    min-height: calc(100vh - 70px);
+  }
+}

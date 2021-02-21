@@ -1,0 +1,434 @@
+/*scan medical page*/
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+  float: left;
+  margin-top: 15px;
+
+  &::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #eee;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+  }
+}
+
+.box-content {
+  padding: 10px 0;
+
+  .time {
+    font-size: 11px;
+    color: rgb(170, 170, 170);
+    line-height: 1px;
+  }
+}
+
+.img-new {
+  float: left;
+  width: 33%;
+  position: relative;
+  margin: 0 15px 0 0;
+
+  .thumbnail {
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+.scan-medical-container {
+  height: 100%;
+  background-image: url("../../../assets/images/scan-medical-background.png");
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .scan-medical-wrapper {
+    height: auto;
+
+    .scan-medical-logo {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .scan-medical-title {
+      font-size: 38px;
+      text-align: center;
+      color: white;
+      margin: 46px 0 10px 0;
+    }
+
+    .scan-medical-input-container {
+      .scan-medical-input-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 40%;
+        min-width: 100%;
+
+        .scan-medical-input {
+          width: 100%;
+          height: 70px;
+          border-radius: 100px;
+          outline: none;
+          padding-left: 20px;
+          font-size: 20px;
+          border: none;
+        }
+
+        .scan-medical-input-button {
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          margin-left: -60px;
+        }
+
+        ::placeholder {
+          color: #3e3a3a;
+          letter-spacing: 5px;
+          padding-left: 20px;
+          font-size: 20px
+        }
+      }
+    }
+
+    .scan-medical-error {
+      color: red;
+      text-align: center;
+      font-size: 18px;
+      margin: 10px;
+    }
+
+    .scan-medical-description {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 15px;
+      text-align: center;
+      color: white;
+      margin-top: 15px;
+
+      a {
+        color: white
+      }
+    }
+  }
+}
+
+
+.medical-detail-container {
+  background-color: #f0f2f5;
+
+  .scan-medical-header {
+    background-image: url("../../../assets/images/medical-profile-header.png");
+    height: 210px;
+    justify-content: center;
+
+    .info-wrapper {
+      .info {
+        font-size: 30px;
+        color: white;
+        margin: 10px;
+      }
+
+      .customer-code-title {
+        font-size: 25px;
+        color: white;
+        margin: 10px;
+      }
+
+      .customer-code {
+        margin: 10px;
+        padding: 10px;
+        color: white;
+        border: 1px solid #458BC3;
+      }
+    }
+
+    .profile-wrapper {
+      height: 100%;
+      margin-bottom: 10px;
+
+      .profile-info {
+        float: right;
+        color: white;
+        font-size: 18px;
+        margin: 20px 0 20px 0;
+      }
+
+      .profile-card {
+        float: right;
+        clear: right;
+        box-shadow: 1px 6px 20px #ffff;
+        width: 130px;
+        height: 130px;
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .scan-medical-body {
+    justify-content: center;
+
+    .scan-medical-body-col {
+      margin: 20px;
+    }
+  }
+}
+
+
+.card-title {
+  font-weight: 600;
+  margin-bottom: 32px !important;
+}
+
+.medical-profile-card-title {
+  font-weight: 600;
+}
+
+.hospital-info {
+  border: 1px solid #0F6AB1;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+
+  .un-public {
+    color: red !important;
+  }
+
+  .hospital-info-header {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+    .date {
+      width: 100px;
+
+      .date-day {
+        margin: 12px 12px 0 12px;
+        font-size: 28px;
+        color: #0F6AB1;
+        font-weight: 600;
+      }
+
+      .date-year {
+        font-size: 18px;
+        color: #0F6AB1;
+        margin-left: 20px;
+        font-weight: 400;
+      }
+    }
+
+    .detail-wrapper {
+      margin: 10px;
+
+      .base {
+        color: #0F6AB1;
+      }
+
+      .hospital {
+        font-size: 20px;
+        color: #0F6AB1;
+      }
+
+      .detail {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .hospital-info-detail {
+    height: 30px;
+    color: #0F6AB1;
+    text-align: right;
+  }
+}
+
+.verify-customer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 30px;
+  background-color: white;
+
+  .title {
+    color: red;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .note {
+    text-align: center;
+    margin: 10px 0 10px 0;
+
+    .hot-line {
+      color: red
+    }
+  }
+
+  .input-control-wrapper {
+    .input-control {
+      margin: 10px auto 10px auto;
+      width: 60%;
+      display: block;
+    }
+
+    .input-control-button {
+      margin: 0 auto 0 auto;
+      display: block;
+    }
+  }
+}
+
+.medical-info-content {
+  line-height: 30px;
+
+  .title {
+    color: #9A9A9A;
+  }
+
+  .value {
+    margin-left: 10px;
+    color: #202020
+  }
+}
+
+.contact-info {
+  line-height: 30px;
+
+  .title {
+    color: #9A9A9A
+  }
+
+  .value {
+    text-align: right;
+    color: #202020
+  }
+}
+
+.medical-file {
+  margin: 0 10px 0 10px
+}
+
+.card-head {
+  font-weight: bold;
+  font-size: 18px
+}
+
+@media screen and (max-width: 600px) {
+  .img-new {
+    width: 100%;
+  }
+}
+
+
+body > #root > div {
+  height: 100vh;
+}
+
+.scan-medical-view-files {
+  justify-content: center;
+
+  .file-item {
+    height: 200px;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .icon-file {
+      font-size: 6vw;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
+
+    .created-date {
+      position: absolute;
+      top: 50%;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+.view-file-back-button {
+  margin: 20px;
+}
+
+@media screen and (max-width: 910px) {
+  .medical-detail-container {
+    .scan-medical-header {
+      .info-wrapper {
+        .info {
+          font-size: 22px;
+          margin: 10px;
+        }
+
+        .customer-code-title {
+          font-size: 18px;
+        }
+      }
+
+      .profile-wrapper {
+        .profile-card {
+          margin: 0 10px 10px 10px;
+        }
+      }
+    }
+  }
+
+  .scan-medical-container {
+    .scan-medical-wrapper {
+      .scan-medical-title {
+        font-size: 30px;
+      }
+
+      .scan-medical-input-container {
+        .scan-medical-input-wrapper {
+          ::placeholder {
+            color: #3e3a3a;
+            letter-spacing: 3px;
+            font-size: 15px
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.online-modal-container {
+  .title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .content {
+    padding: 0 30px;
+    font-size: 16px;
+    .text-bold {
+      font-weight: bold;
+    }
+    .form-item-hide-custom {
+      color: white;
+    }
+    .control {
+      display: flex;
+      .control-left {
+        flex: 1;
+        .ant-input-number {
+          width: 100%;
+        }
+      }
+      .unit {
+        width: 50px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  
+}

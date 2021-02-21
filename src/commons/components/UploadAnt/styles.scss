@@ -1,0 +1,62 @@
+@import 'assets/css/variables';
+.upload-ant-custom {
+  // display: flex;
+  flex-wrap: wrap;
+  // justify-content: center;
+  .control-upload {
+    // width: 200px;
+    // line-height: 200px;
+    line-height: 13rem;
+    background: #818181;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    .icon {
+      color: white;
+      font-size: 40px;
+    }
+  }
+  .background-file {
+    background: #f0f0f0;
+  }
+  .file-item {
+    // height: 200px;
+    // width: 200px;
+    height: 13rem;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icon-file {
+      font-size: 6vw;
+      color: $text-primary-color;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 5px;
+    }
+    .created-date {
+      position: absolute;
+      top: 50%;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+    }
+    .icon-delete {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 24px;
+      color: red;
+    }
+  }
+  
+}

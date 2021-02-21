@@ -1,0 +1,36 @@
+@import "assets/css/variables";
+.withdraw-modal-container {
+  padding: 0 30px;
+  label {
+    font-size: 16px;
+  }
+  .title {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: $header-menu-color;
+  }
+  .control {
+    display: flex;
+    .col-left {
+      flex: 1;
+    }
+    .col-right {
+      width: 10%;
+    }
+  }
+  .t-right {
+    button {
+      width: 100%;
+      text-transform: uppercase;
+    }
+  }
+
+  button,
+  .ant-btn:hover,
+  .ant-btn:focus {
+    border-color: $header-menu-color !important;
+    color: $header-menu-color !important;
+  }
+}

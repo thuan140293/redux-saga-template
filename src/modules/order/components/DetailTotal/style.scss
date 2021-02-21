@@ -1,0 +1,29 @@
+.wrapper-total{
+  padding: 10px;
+  .cart-total-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    .header {
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+    .content {
+      padding: 10px;
+      .sub-total, .discount, .total {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .total {
+        font-size: 20px;
+      }
+      .promotion {
+        display: flex;
+        .control {
+          flex: 1;
+        }
+      }
+    }
+  }
+}

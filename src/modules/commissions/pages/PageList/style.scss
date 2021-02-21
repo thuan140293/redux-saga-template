@@ -1,0 +1,28 @@
+@import "assets/css/variables";
+.main-header {
+  .bg-card {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .header-custom {
+    background-color: $header-background-color;
+    padding: 10px 10px 5px 10px;
+  }
+  .table-header {
+    background-color: #cfe8ff;
+    padding: 8px;
+    .ant-form-item,
+    h1 {
+      margin-bottom: 0;
+    }
+  }
+  .type-earn {
+    // color:black;
+    background-color: white;
+  }
+  .type-other {
+    // color:black;
+    background-color: #f5f5f5;
+  }
+}

@@ -1,0 +1,32 @@
+@import "assets/css/variables";
+
+.wrapper-notification {
+  display: flex;
+  padding: 10px;
+  font-weight: bold;
+  .content-left-icon {
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+    color: $aside-menu-color;
+    font-size: 2rem;
+  }
+  .content-right {
+    width: 100%;
+    padding: 0 10px;
+    .item-wrapper {
+      display: flex;
+      justify-content: space-between;
+      p {
+        margin: 0;
+        display: inline-block;
+      }
+    }
+    .isRead {
+      font-weight: normal!important;
+    }
+  }
+}
+.wrapper-color-white{
+  background-color: #F8F8F8;
+}

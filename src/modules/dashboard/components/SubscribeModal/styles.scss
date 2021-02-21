@@ -1,0 +1,24 @@
+@import "assets/css/variables";
+.subscribe-modal-container {
+    padding: 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+  button {
+    width: 100%;
+    text-transform: uppercase;
+    background: none;
+  }
+
+  button,
+  .ant-btn:hover,
+  .ant-btn:focus {
+    border-color: $header-menu-color !important;
+    color: $header-menu-color !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+    .ant-modal-close-x {
+      padding-left: 20px;;
+    }
+  }

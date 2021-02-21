@@ -1,0 +1,31 @@
+@import 'assets/css/variables';
+.schedule-section {
+  .header {
+    color: $text-primary-color;
+    border-bottom: 1px solid $text-primary-color;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .content {
+    .col-left {
+      .time, .date {
+        color: $text-primary-color;
+      }
+      .time {
+        font-size: 30px;
+      }
+    }
+    .col-right {
+      .text-note, .hospital-name {
+        color: $text-primary-color;
+      }
+      .status {
+        .action-complete {
+          // cursor: pointer;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.notification-pagination{
+    margin-top: 5px;
+    max-width: 100%;
+    height: 32px;
+    position: relative;
+    .ant-pagination{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

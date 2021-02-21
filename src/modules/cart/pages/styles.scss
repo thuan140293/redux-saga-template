@@ -1,0 +1,81 @@
+@import 'assets/css/variables';
+.cart-container {
+  .payment-success{
+    margin-top: 60px;
+    h2 {
+      color: green;
+    }
+  }
+  .cart-step-2 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    .title {
+      color: #707070;
+      font-size: 24px;
+    }
+    .value {
+      color: red;
+      font-size: 24px;
+    }
+  }
+  .cart-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    .image {
+      width: 200px;
+      img {
+        width: 200px;
+        height: 126px;
+      }
+    }
+    .info {
+      padding: 10px;
+      flex: 1;
+      .header {
+        .title {
+          color: #707070;
+          font-size: 24px;
+        }
+        .icon-delete {
+          font-size: 20px;
+          color: red;
+        }
+      }
+     
+      .beneficiary {
+        .text {
+          color: $text-primary-color;
+        }
+        .icb {
+          font-size: 24px;
+          color: red;
+        }
+      }
+
+      .beneficiary, .header, .description {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+    }
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .cart-container .cart-item {
+    display: inherit;
+    .image {
+      width: 100%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

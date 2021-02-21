@@ -1,0 +1,73 @@
+@import 'assets/css/variables';
+.membership-item-container {
+  .membership-date-expired{
+    position: absolute;
+    top: 10px;
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+  }
+  .membership-current {
+    padding: 6px;
+    background: $success-color;
+    border-radius: 5px;
+    color: white;
+    cursor: no-drop;
+  }
+  .has-pending-plan {
+    padding: 6px;
+    background: $text-primary-color;
+    border-radius: 5px;
+    color: white;
+    cursor: no-drop;
+  }
+  padding: 0 10px;
+  .box {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    .mem-img {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 10px;
+    }
+    .info-card {
+      text-align: center;
+      font-weight: bold;
+      .title {
+        color: #038fde;
+      }
+      .current-icb {
+        font-size: 2em;
+        color: #0f6ab1;
+      }
+      .publisher {
+        color: #0f6ab1;
+        padding: 10px 0;
+      }
+    }
+    .btn-signup {
+      text-align: center;
+      padding: 10px;
+      .btn-cus {
+        width: 90%;
+        height: 40px;
+        font-size: 20px;
+      }
+    }
+    .befenit {
+      padding: 0 12px;
+      p {
+        margin: 0;
+        font-size: 13px;
+      }
+      .close-color{
+        color: red;
+      }
+      .check-color{
+        color: green;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.new-container {
+  display: flex;
+  .content-left {
+    width: 30%;
+    .thumbnail {
+      max-width: 100%;
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0,0.05);
+    }
+  }
+  .content-right {
+    width: 70%;
+    padding: 0 10px;
+    h4 {
+      color: #262626;
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.visible-hidden {
+  visibility: hidden;
+}
+.deposit-container {
+  text-align: center;
+  font-family: "Open Sans";
+  .ant-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .more-action {
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    .height-up {
+      display: block;
+      min-height: 31px;
+    }
+  }
+  .active {
+    color: #357df9;
+  }
+  .currency {
+    padding-left: 10px;
+    font-size: 28px;
+    text-align: left;
+  }
+  color: #fff;
+  img.image-deposit {
+    position: absolute;
+    width: 180px;
+    height: 34px;
+    right: 0px;
+    top: -38px;
+  }
+  .action-block {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  .border-bottom {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #9e0101;
+  }
+  .border-right {
+    border-right: 1px solid #9e0101;
+  }
+  .icon-up,
+  .icon-down {
+    width: 30px;
+    height: 30px;
+  }
+  .image-switch {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 18px;
+    height: 14px;
+    cursor: pointer;
+  }
+}

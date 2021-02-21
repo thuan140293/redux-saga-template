@@ -1,0 +1,72 @@
+@import "assets/css/variables";
+.wallet-container {
+  .title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .col-left {
+    .icb {
+      margin-bottom: 22px;
+      display: flex;
+      align-items: center;
+      .value {
+        margin-right: 10px;
+        font-size: 24px;
+        .icb-value {
+          font-size: 30px;
+        }
+      }
+      .transfer {
+        cursor: pointer;
+        color: white;
+        padding: 3px 10px;
+        border-radius: 6px;
+        background: orangered;
+        height: fit-content;
+      }
+    }
+    .history {
+      color: $text-primary-color;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    .action {
+      .deposit {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .col-right {
+    .view-all {
+      text-align: right;
+      padding-top: 5px;
+    }
+
+    .transaction-history {
+      display: flex;
+      border-bottom: 1px solid #ccc;
+      &:last-child {
+        border-bottom: none;
+      }
+      .price {
+        font-weight: bold;
+      }
+      .content {
+        margin-right: 5px;
+        flex: 1;
+        .date {
+          font-style: italic;
+          font-size: 10px;
+        }
+      }
+    }
+    .transaction-in {
+      .price,
+      .note {
+        color: #1890ff;
+      }
+    }
+  }
+}

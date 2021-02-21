@@ -1,0 +1,31 @@
+@import 'assets/css/variables';
+.form-item-custom-hidden, .form-item-custom {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  .ant-select, .ant-form-item-control-wrapper, .ant-calendar-picker, .input {
+    width: 100%;
+  }
+  .wrapper-control {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+}
+.form-item-custom-hidden {
+  .ant-form-item-label {
+    visibility: hidden;
+  }
+}
+
+
+.wrapper-status {
+  display: flex;
+  cursor: pointer;
+}
+.is-public {
+  color: $text-primary-color;
+}
+.not-public {
+  color: red;
+}

@@ -1,0 +1,42 @@
+@import "assets/css/variables";
+
+.medical-profile {
+  .date-month,
+  .year {
+    font-size: 30px;
+    font-weight: bold;
+    color: $text-primary-color;
+  }
+  .title,
+  .hospital,
+  .note {
+    color: $text-primary-color;
+    margin-bottom: 5px;
+  }
+  .hospital {
+    font-size: 20px;
+  }
+  .status-line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $text-primary-color;
+  }
+  .upload-file-line {
+    color: $text-primary-color;
+  }
+  .is_public {
+    .title {
+      color: red;
+    }
+  }
+  .ant-card-body {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .icon-action {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,51 @@
+import moment from "moment";
+
+export const GET_LIST_MEDICAL_PROFILE = "GET_LIST_MEDICAL_PROFILE";
+export const GET_LIST_MEDICAL_PROFILE_SUCCESS = "GET_LIST_MEDICAL_PROFILE_SUCCESS";
+
+export const DELETE_MEDICAL_PROFILE = "DELETE_MEDICAL_PROFILE";
+
+export const GET_LIST_HOSPITAL = "GET_LIST_HOSPITAL";
+export const GET_LIST_HOSPITAL_SUCCESS = "GET_LIST_HOSPITAL_SUCCESS";
+
+export const CREATE_MEDICAL_PROFILE = "CREATE_MEDICAL_PROFILE";
+export const UPDATE_MEDICAL_PROFILE = "UPDATE_MEDICAL_PROFILE";
+
+export const GET_DETAIL_MEDICAL_PROFILE = "GET_DETAIL_MEDICAL_PROFILE";
+export const GET_DETAIL_MEDICAL_PROFILE_SUCCESS = "GET_DETAIL_MEDICAL_PROFILE_SUCCESS";
+
+export const CUSTOMER_MEDICAL_SCHEDULE_LIST = "CUSTOMER_MEDICAL_SCHEDULE_LIST";
+export const CUSTOMER_MEDICAL_SCHEDULE_LIST_SUCCESS = "CUSTOMER_MEDICAL_SCHEDULE_LIST_SUCCESS";
+
+export const CUSTOMER_MEDICAL_SCHEDULE_CREATE = "CUSTOMER_MEDICAL_SCHEDULE_CREATE";
+export const CUSTOMER_MEDICAL_SCHEDULE_UPDATE = "CUSTOMER_MEDICAL_SCHEDULE_UPDATE";
+export const CUSTOMER_MEDICAL_SCHEDULE_DELETE = "CUSTOMER_MEDICAL_SCHEDULE_DELETE";
+export const CUSTOMER_MEDICAL_SCHEDULE_DELETE_SUCCESS = "CUSTOMER_MEDICAL_SCHEDULE_DELETE_SUCCESS";
+
+export const HOSPITAL_CREATE = 'HOSPITAL_CREATE';
+
+
+export const SEARCH_MEDICAL_PROFILE = {
+  page: 1,
+  limit: 10,
+  hospital_id: null,
+  fromDate: moment().subtract(1, 'months'),
+  toDate: moment().add(1, 'months'),
+  is_public: null
+};
+
+export const SEARCH_HOSPITAL = {
+  page: 1,
+  limit: 10,
+  keyword: '',
+  type: 'domestic'
+};
+
+export const SEARCH_CUSTOMER_MEDICAL_SCHEDULE = {
+  customer_medical_profile_id: null,
+  page: 1,
+  limit: 10,
+  keyword: null,
+  status: null,
+  type: null
+}

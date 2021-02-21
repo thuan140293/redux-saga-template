@@ -1,0 +1,21 @@
+@import "assets/css/variables";
+.swap-container {
+  .red-color {
+    color: red;
+    width: 100%;
+  }
+  .width-select {
+    width: 129px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .mobile-select {
+    max-width: 100px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .mobile-select {
+    width: 64px !important;
+  }
+}
